@@ -10,13 +10,13 @@ int number = 0;
 	            else if(numberToSkip==lastInRow){
 	                for (int i=0; i<=lastInRow; i++){
 	                        number+=i;}
-	                System.out.println("skipped sum is number " +number+ "\n"+ "counted sum is number " + 0);}
+	                System.out.println("skipped sum is " +number+ "\n"+ "counted sum is " + 0);}
 	            else {
 	                for (int i=0; i<lastInRow; i++){
 	                    if(i==numberToSkip){
 	                        continue;}
 	                        number+=i;}
-	                        System.out.println("skipped sum is number " +(numberToSkip+lastInRow)+ "\n"+ "counted sum is number " + number);}
+	                        System.out.println("skipped sum is " +(numberToSkip+lastInRow)+ "\n"+ "counted sum is " + number);}
 
     }
 }
